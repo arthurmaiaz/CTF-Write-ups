@@ -30,10 +30,9 @@ De 4612 palavras testadas, apenas esse caminho retornou algo relevante.
 O `.git/HEAD` respondendo com **200** confirma que a pasta `.git` da aplicação está publicamente acessível via HTTP. Isso é um problema clássico de **information disclosure**: quando o deploy é feito sem remover ou bloquear o acesso ao `.git`, qualquer pessoa pode reconstruir o repositório inteiro remotamente — código-fonte, histórico de commits e até arquivos que já foram deletados em versões posteriores.
 
 Confirmação manual:
-
-```
 Utilizei o comando "curl" para ver o conteudo bruto e confirmar que era um arquivo GIT legitimo
 
+```
 curl http://10.65.181.65:8080/.git/HEAD
 # ref: refs/heads/main
 ```
