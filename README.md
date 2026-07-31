@@ -7,6 +7,7 @@ Repositório com write-ups de challenges que resolvi em plataformas de seguranç
 | Room/Challenge | Plataforma | Dificuldade | Categoria | Write-up |
 |---|---|---|---|---|
 | Room 404 | TryHackMe | Easy | Web / Information Disclosure | [Link](./tryhackme/hacker-holidays-room404/README.md) |
+| The Concierge Knows Too Much | TryHackMe | Easy | Cloud / AWS Misconfiguration | [Link](./tryhackme/hacker-holidays-concierge-knows-too-much/README.md) |
 
 ## 🛠️ Sobre
 
