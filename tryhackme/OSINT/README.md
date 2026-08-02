@@ -1,7 +1,7 @@
 # TryHackMe — OSINT (Hacker Holidays: The Byte Lotus)
 
 **Plataforma:** TryHackMe
-**Evento:** Hacker Holidays — The Byte Lotus Hotel
+**Evento:** Hacker Holidays The Byte Lotus Hotel
 **Dificuldade:** Easy
 **Categoria:** OSINT / Email Intelligence
 
