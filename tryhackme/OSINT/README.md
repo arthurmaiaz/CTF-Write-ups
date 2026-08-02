@@ -42,5 +42,5 @@ THM{REDACTED}
 
 - **Gravatar é uma fonte de OSINT frequentemente esquecida**: como o perfil é vinculado a um hash determinístico do e-mail (não ao e-mail em texto puro), é possível localizar um perfil mesmo sem saber que ele existe só de ter o e-mail em mãos.
 - Perfis "apagados" em serviços online nem sempre desaparecem de fato; caches, snapshots e a própria natureza determinística de certos identificadores (como o hash do Gravatar) podem manter rastros acessíveis.
-- Reforcei a diferença entre **codificação** (Base64, reversível por qualquer um, sem chave) e **criptografia** (precisa de uma chave para reverter) — útil para reconhecer rapidamente qual ferramenta usar diante de uma string desconhecida.
+- Reforcei a diferença entre **codificação** (Base64, reversível por qualquer um, sem chave) e **criptografia** (precisa de uma chave para reverter) útil para reconhecer rapidamente qual ferramenta usar diante de uma string desconhecida.
 - Ferramentas de automação como Sherlock aceleram bastante a etapa de correlacionar um dado (e-mail, username) com perfis espalhados por múltiplas plataformas.
