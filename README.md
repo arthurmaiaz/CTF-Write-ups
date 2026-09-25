@@ -5,11 +5,12 @@ Repositório com write-ups de challenges que resolvi em plataformas de seguranç
 ## 📋 Índice
 
 | Room/Challenge | Plataforma | Dificuldade | Categoria | Write-up |
-|---|---|---|---|---|
-| Room 404 | TryHackMe | Easy | Web / Information Disclosure | [Link](./tryhackme/hacker-holidays-room404/README.md) |
-| The Concierge Knows Too Much | TryHackMe | Medium | Cloud / AWS Misconfiguration | [Link](./tryhackme/hacker-holidays-concierge-knows-too-much/README.md) |
-| Packed Light | TryHackMe | Medium | Network Forensics / Covert Channel / Malware Reversing | [Link](./tryhackme/hacker-holidays-packed-light/README.md) |
-| OSINT | TryHackMe | Easy | OSINT / Email Intelligence | [Link](./tryhackme/OSINT/README.md) |
+| --- | --- | --- | --- | --- |
+| Room 404 | TryHackMe | Easy | Web / Information Disclosure | [Ver write-up](./tryhackme/hacker-holidays-room404/README.md) |
+| The Concierge Knows Too Much | TryHackMe | Medium | Cloud / AWS Misconfiguration | [Ver write-up](./tryhackme/hacker-holidays-concierge-knows-too-much/README.md) |
+| Packed Light | TryHackMe | Medium | Network Forensics / Covert Channel / Malware Reversing | [Ver write-up](./tryhackme/hacker-holidays-packed-light/README.md) |
+| OSINT | TryHackMe | Easy | OSINT / Email Intelligence | [Ver write-up](./tryhackme/OSINT/README.md) |
+| Simple CTF | TryHackMe | Easy | Web Exploitation / SQL Injection / Privilege Escalation | [Ver write-up](./tryhackme/Simple-ctf/README.md) |
 
 ## 🛠️ Sobre
 
