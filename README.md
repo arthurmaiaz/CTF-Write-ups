@@ -11,6 +11,7 @@ Repositório com write-ups de challenges que resolvi em plataformas de seguranç
 | Packed Light | TryHackMe | Medium | Network Forensics / Covert Channel / Malware Reversing | [Ver write-up](./tryhackme/hacker-holidays-packed-light/README.md) |
 | OSINT | TryHackMe | Easy | OSINT / Email Intelligence | [Ver write-up](./tryhackme/OSINT/README.md) |
 | Simple CTF | TryHackMe | Easy | Web Exploitation / SQL Injection / Privilege Escalation | [Ver write-up](./tryhackme/Simple-ctf/README.md) |
+| Basic Pentesting | TryHackMe | Easy | SMB Enumeration / SSH Brute Force / Privilege Escalation | [Ver write-up](./tryhackme/basic-pentesting/README.md) |
 
 ## 🛠️ Sobre
 
